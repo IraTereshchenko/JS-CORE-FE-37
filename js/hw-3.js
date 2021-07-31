@@ -299,3 +299,33 @@ const {
   today: {low: lowToday, high: highToday, icon: todayIcon = 'https://www.flaticon.com/svg/static/icons/svg/861/861059.svg'},
   tomorrow: {low: lowTomorrow, high: highTomorrow, icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"}
 } = forecast;*/
+
+//26
+// Change code below this line
+/*function calculateMeanTemperature(forecast) {
+  const {today: {low: todayLow, high: todayHigh}, 
+         tomorrow: {low: tomorrowLow,  high: tomorrowHigh}} = forecast;
+ 
+
+  // Change code above this line
+  return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+}*/
+
+//27
+/*const scores = [89, 64, 42, 17, 93, 51, 26];
+// Change code below this line
+const bestScore = Math.max(...scores);
+const worstScore = Math.min(...scores);
+console.log(Math.max(...scores));
+console.log(Math.min(...scores));*/
+
+//28
+/*const firstGroupScores = [64, 42, 93];
+const secondGroupScores = [89, 14, 51, 26];
+const thirdGroupScores = [29, 47, 18, 97, 81];
+// Change code below this line
+const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+const bestScore =  Math.max(...allScores);
+const worstScore =  Math.min(...allScores);*/
+
+
